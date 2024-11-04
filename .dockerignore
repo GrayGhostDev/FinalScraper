@@ -1,0 +1,27 @@
+# Python cache directories
+__pycache__/
+*.pyc
+
+# Virtual environment directories
+venv/
+ENV/
+env/
+
+# Git directories and files
+.git/
+.gitignore
+
+# Docker files
+Dockerfile
+docker-compose.yml
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Large data or output directories
+output/
+*.zip
+
+# Documentation files
+*.md

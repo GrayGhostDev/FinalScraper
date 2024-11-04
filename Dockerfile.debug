@@ -1,0 +1,23 @@
+FROM python:3.9-bullseye
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    wget \
+    unzip \
+    gnupg \
+    curl \
+    libnss3 \
+    libxss1 \
+    libappindicator3-1 \
+    libindicator3-7 \
+    fonts-liberation \
+    libglib2.0-0 \
+    libgl1-mesa-glx \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN dpkg --print-architecture
+
+RUN apt-cache policy libindicator3-7
+
+RUN apt-get update && apt-get install -y libindicator3-7 || echo "libindicator3-7 not found"
+
+RUN apt-cache search libindicator3-7

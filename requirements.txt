@@ -11,3 +11,9 @@ readability-lxml
 streamlit
 streamlit-tags
 openpyxl
+html2text
+webdriver-manager
+openpyxl
+google-generativeai
+tenacity
+streamlit-tags
