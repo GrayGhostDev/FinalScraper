@@ -1,0 +1,98 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Pyenv
+.python-version
+
+# Environments
+.env
+.env.*
+.venv
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# MacOS files
+.DS_Store
+
+# Logs
+*.log
+
+# Local settings
+settings.py
+
+# Test reports
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Selenium drivers
+chromedriver
+geckodriver
+
+# Streamlit files
+.streamlit/
+
+# Output files
+output/
+*.csv
+*.json
+*.xlsx
+*.md
+
+# Credentials and sensitive files
+*.pem
+*.key
+*.crt
+.env
+
+# Backup files
+*.bak
+*.old
+
+# Ignore secrets
+openai_api_key.txt
